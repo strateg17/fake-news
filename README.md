@@ -4,7 +4,7 @@ Fake news detection
 ## Abstract
 While the paper establishes the validity of the Tesco 1.0 dataset we propose to use this dataset to study if we can find some similarity in the typical products consumed within geographically close areas. To do so, we will study the clusters of areas computed out of their products consumption: areas with similar typical product consumption will be clustered together. And then we will compare these clusters with the geographic disposition of the areas. Such a clustering could help grocery shop companies to adapt their product according to the areas where they operate. Moreover, to provide a better understanding of the data we will create an interactive visualization. The latter will represent typical food consumption of London areas on a map of the city with different levels of aggregation, over different periods of time and with the possibility of choosing different attributes of the typical product. This visualisation will help assess the validity of our findings. Finally, we will spend some time analysing the actual output of the clustering in terms of the typical product of the clusters. Using the dataset of diabetes prevalence, we will try to quantify how much information is contained in the clusters and how usefull can it be (study the impact of the cluster assignment as features of a linear regression compared to the base regressor of the Tesco paper).
 
-## Research questions
+## Goal
 
 1. Are similar areas (in terms of typical products) geographically close?
 2. Can we naturally cluster areas geographically when it comes to food consumption in London?
@@ -33,7 +33,7 @@ While the paper establishes the validity of the Tesco 1.0 dataset we propose to 
 
 
 
-## Project structure
+## Project structure and installation
 ### Organisation of the repository
 In order to be able to run our notebook, you should have a folder structure similar to:
 
@@ -55,9 +55,20 @@ In order to be able to run our notebook, you should have a folder structure simi
     └── README.md               
     
 
+### How to run the code
+Follow the steps in Data Acquisition to download the raw datasets
+Follow the steps in Data Processing to generate the preprocessed data
+Data exploration: run the data_exploration/data_exploration.ipynb notebook to see the data exploration steps taken.
+Embeddings: open the models/embedding folder:
+Autoencoder: follow the steps in Train Autoencoders to understand how to train and use the available autoencoders
+PCA: run the pca_embedding.ipynb notebook to create the PCA embedding.
+Rule-based: follow the steps in Build Rule-based features to generate preprocessed data usefull for performance comparision.
+Clustering: run the models/clustering/Kmeans.ipynb notebook to see the code related to the clustering.
+Profitablity prediction: run the models/prediction/prediction.ipynb notebook for the profitablity prediction task.
+
 ### Dependencies requirement
 
-Furthermore, you should have the following additional libraries installed
+Furthermore, you should have the following additional libraries installed. In the repository, we provide a `requirement.txt` file from which you can create a virtual python environment.
 | Library                         | Versino                    |
 |:--------------------------------| :--------------------------|
 | pandas                          |...                         |

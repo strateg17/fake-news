@@ -6,20 +6,19 @@ The proliferation of fake and manipulated news poses a significant threat to the
 
 
 ## Goal
-Inspired by famous TEX talk of Simon Sinek about [How great leaders inspire action](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action?language=en) we were wondering to answer three question: 
+Inspired by famous [TEDx talk of Simon Sinek about How great leaders inspire action](https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action?language=en) we were wondering to answer three question: 
 
 **1. WHY?** 
 TODO: 
 
 **2. WHAT?** 
-1. Fake news classification to build a news filters or even better firewals.
-2. Automatation of topic modeling and naratives extraction.
-3. Testing how LLM infected by such information will responde to basic questions.
+- Fake news classification to build a news filters or even better firewals.
+- Automatation of topic modeling and naratives extraction.
+- Testing how LLM infected by such information will responde to basic questions.
 
 
 **3. HOW?**  - TODO:
-First of all we we are investigating two well-known Data Science methodologies for project management, namely, [CRISP-DM](https://ml-ops.org/content/crisp-ml) (Cross-Industry Standard Process for Data Mining) and [Microsoft TDSP](https://deeperinsights.com/ai-blog/how-to-run-a-data-science-team) (Team Data Science Process)
-
+First of all we we are investigating two well-known Data Science methodologies for project management, namely, [CRISP-DM](https://ml-ops.org/content/crisp-ml) (Cross-Industry Standard Process for Data Mining) and [Microsoft TDSP](https://deeperinsights.com/ai-blog/how-to-run-a-data-science-team) (Team Data Science Process).
 
 TODO: 
 - building classifier;

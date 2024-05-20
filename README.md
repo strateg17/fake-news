@@ -95,4 +95,4 @@ Furthermore, you should have the following additional libraries installed. In th
 
 
 ## References:
-Pavlyshenko, B. (2023). AAnalysis of Disinformation and Fake News Detection Using Fine-Tuned Large Language Mode. ArXiv. [https://doi.org/10.31234/osf.io/76xfs](https://arxiv.org/pdf/2309.04704)
+Pavlyshenko, B. (2023). Analysis of Disinformation and Fake News Detection Using Fine-Tuned Large Language Mode. ArXiv. [https://doi.org/10.31234/osf.io/76xfs](https://arxiv.org/pdf/2309.04704)

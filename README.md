@@ -1,4 +1,4 @@
-![image](https://github.com/strateg17/fake-news/assets/69148321/9c37fb75-c818-45bb-b215-191da9025f3d)Fake news detection 
+Fake news detection 
 ======
 
 ## Abstract
@@ -18,7 +18,7 @@ TODO:
 
 
 **3. HOW?**  - TODO:
-![image](https://github.com/strateg17/fake-news/assets/69148321/95880738-0ba6-43f8-8e59-56c8a3646924)
+First of all we we are investigating two well-known Data Science methodologies for project management, namely, [CRISP-DM](https://ml-ops.org/content/crisp-ml) (Cross-Industry Standard Process for Data Mining) and [Microsoft TDSP](https://deeperinsights.com/ai-blog/how-to-run-a-data-science-team) (Team Data Science Process)
 
 
 TODO: 

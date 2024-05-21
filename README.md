@@ -106,10 +106,10 @@ Pavlyshenko, B. (2023). Analysis of Disinformation and Fake News Detection Using
 | :-----------------------------------|:--------------------------------| -----------:|
 | Idea research and concepts          |                                 |             |
 | Data search                         |                                 |             |
-| Literature research                 | Lucas & Augustin                | 3h          |
-| API choice and query design         | Lucas & Augustin                | 4h          |
-| Environment setup                   | Lucas                           | 2h          |
-| Data fetching script test           | Augustin                        | 3h          |
+| Git utilisation and usage           | All team members                | 3h          |
+| API choice and query design         |                                 | 4h          |
+| Environment setup                   |                                 | 2h          |
+| Data fetching script test           |                                 | 3h          |
 | Data fetching validation            | Augustin                        | 2h          |
 | Data fetching improvements          | Augustin                        | 2h          |
 

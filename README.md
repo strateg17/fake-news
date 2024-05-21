@@ -97,21 +97,24 @@ Furthermore, you should have the following additional libraries installed. In th
 ## References:
 Pavlyshenko, B. (2023). Analysis of Disinformation and Fake News Detection Using Fine-Tuned Large Language Mode. ArXiv. [https://doi.org/10.31234/osf.io/76xfs](https://arxiv.org/pdf/2309.04704)
 
-# Timeline and contributions :
 
-## Week 1 : Data Acquisition & Setup (1)
+## Timeline and contributions:
+
+### Week 1 : Data Acquisition & Project Setup
 
 | Task                                | Team member(s)                  | work hours  |
 | :-----------------------------------|:--------------------------------| -----------:|
+| Idea research and concepts          |                                 |             |
+| Data search                         |                                 |             |
 | Literature research                 | Lucas & Augustin                | 3h          |
 | API choice and query design         | Lucas & Augustin                | 4h          |
-| EPFL Cluster & environment setup    | Lucas                           | 2h          |
+| Environment setup                   | Lucas                           | 2h          |
 | Data fetching script test           | Augustin                        | 3h          |
 | Data fetching validation            | Augustin                        | 2h          |
 | Data fetching improvements          | Augustin                        | 2h          |
 
 
-## Week 2 : Data preprocessing
+### Week 2 : Data preprocessing
 
 | Task                                     | Team member(s)                  | work hours  |
 | :----------------------------------------|:--------------------------------| -----------:|
@@ -121,7 +124,7 @@ Pavlyshenko, B. (2023). Analysis of Disinformation and Fake News Detection Using
 | Raw data => embedding format             | Lucas                           | 3h          |
 
 
-## Week 3 : Embedding & Clustering 
+### Week 3 : Embedding & Clustering 
 
 | Task                                     | Team member(s)                  | work hours  |
 | :----------------------------------------|:--------------------------------| -----------:|
@@ -129,7 +132,7 @@ Pavlyshenko, B. (2023). Analysis of Disinformation and Fake News Detection Using
 | Comparision with PCA and debugging       | Lucas                           | 1h          |
 | K-means                                  | Augustin                        | 2h          |
 
-## Week 4 : Clustering analysis, Profitablity prediction & report writing
+### Week 4 : Clustering analysis, Profitablity prediction & report writing
 
 | Task                                    | Team member(s)                  | work hours  |
 | :---------------------------------------|:--------------------------------| -----------:|

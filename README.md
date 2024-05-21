@@ -96,3 +96,96 @@ Furthermore, you should have the following additional libraries installed. In th
 
 ## References:
 Pavlyshenko, B. (2023). Analysis of Disinformation and Fake News Detection Using Fine-Tuned Large Language Mode. ArXiv. [https://doi.org/10.31234/osf.io/76xfs](https://arxiv.org/pdf/2309.04704)
+
+
+## Timeline and contributions:
+
+### Week 1 : Data Acquisition & Project Setup
+
+| Task                                | Team member(s)                  | work hours  |
+| :-----------------------------------|:--------------------------------| -----------:|
+| Idea research and concepts          |                                 |             |
+| Data search                         |                                 |             |
+| Literature research                 | Lucas & Augustin                | 3h          |
+| API choice and query design         | Lucas & Augustin                | 4h          |
+| Environment setup                   | Lucas                           | 2h          |
+| Data fetching script test           | Augustin                        | 3h          |
+| Data fetching validation            | Augustin                        | 2h          |
+| Data fetching improvements          | Augustin                        | 2h          |
+
+
+### Week 2 : Data preprocessing
+
+| Task                                     | Team member(s)                  | work hours  |
+| :----------------------------------------|:--------------------------------| -----------:|
+| Data cleaning                            | Augustin                        | 5h          |
+| Data exploration paper dataset           | Augustin                        | 2h          |
+| Data exploration                         | Lucas                           | 3h          |
+| Raw data => embedding format             | Lucas                           | 3h          |
+
+
+### Week 3 : Embedding & Clustering 
+
+| Task                                     | Team member(s)                  | work hours  |
+| :----------------------------------------|:--------------------------------| -----------:|
+| Autencoder keras basic code              | Lucas                           | 3h          |
+| Comparision with PCA and debugging       | Lucas                           | 1h          |
+| K-means                                  | Augustin                        | 2h          |
+
+### Week 4 : Clustering analysis, Profitablity prediction & report writing
+
+| Task                                    | Team member(s)                  | work hours  |
+| :---------------------------------------|:--------------------------------| -----------:|
+| Clustering analysis                     | Lucas                           | 4h          |
+| Profitablity prediction setup           | Augustin                        | 2h          |
+| Github pages setup                      | Lucas                           | 2h          |
+| Data story (1)                          | Lucas                           | 5h          |
+| Data story (2)                          | Augustin                        | 2h          |
+
+### Week 5 : Improvements in data processing & report writing
+
+| Task                                    | Team member(s)                  | work hours  |
+| :---------------------------------------|:--------------------------------| -----------:|
+| Token based scaling                     | Lucas & Augustin                |    5h        |
+| Token one hot encoding                  | Lucas                           |    1h        |
+| Token encoding in profitablity prediction   | Augustin                    |    1h        |
+| Deep NN for   profitablity prediction   | Augustin                        |    1h        |
+| Better data processing                  | Augustin                        |    2h        |
+| Improved data exploration               | Lucas                           |    3h        |
+| Better understanding of PCA output      | Augustin                        |    1h        |
+| Autencoder testing                      | Augustin                        |    2h        |
+| Data story (3)                          | Lucas                           |    1h        |
+| Add ruled based indicators for autoencoder performance comparision | Lucas |    2h       |        
+
+### Week 6 : Hyperparameter opmisation, improvements & report writing
+
+| Task                                    | Team member(s)                  | work hours   |
+| :---------------------------------------|:--------------------------------| ------------:|
+| Filter illiquid data & debug            | Lucas                           |    3h        |
+| Update architecture for liquid data     | Augustin                        |    3h        |
+| Research on attention learning          | Lucas                           |    2h        |
+| Data processing simpler pipeline        | Augustin                        |    2h        |
+| Autencoder improvement and debug        | Augustin                        |    3h        |
+| Autencoder manual tests for several architectures        | Augustin       |    8h        |
+| Testing optimizers                      | Augustin                        |    2h        |
+| Talos setup                             | Lucas                           |    2h        |
+| Running Talos                           | Augustin                        |    1h        |
+| Hyperparameter opmisation               | Lucas & Augustin                |    4h        |
+| Reporting losses                        | Augustin                        |    1h        |
+| Kmeans : better silouhette analysis     | Lucas                           |    3h        |
+| Kmeans : update results for liquid data | Lucas                           |    4h        |
+| PCA embedding                           | Lucas                           |    1h        |
+| Ruled based data : pandas-ta implementation    | Lucas                    |    1h        |
+| Ruled based data : pandas implementation       | Lucas                    |    3h        |
+| Ruled based data : code optimisation           | Lucas                    |    3h        |
+| Ruled based data : performance comparision with AE  | Lucas               |    1h        |
+| Repository cleaning                     | Lucas & Augustin                |    1h        |
+| Notebook comments and markdown          | Lucas & Augustin                |    4h        |
+| Data story (4)                          | Lucas & Augustin                |    6h        |
+
+## Total contribution:
+
+| Team member                     | work hours   |
+|:--------------------------------| ------------:|
+| Lucas Giordano                  |    81h       |
+| Augustin Kapps                  |    60h       |

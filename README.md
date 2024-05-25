@@ -96,6 +96,9 @@ Furthermore, you should have the following additional libraries installed. In th
 ## References:
 Pavlyshenko, B. (2023). Analysis of Disinformation and Fake News Detection Using Fine-Tuned Large Language Mode. ArXiv. [https://doi.org/10.31234/osf.io/76xfs](https://arxiv.org/pdf/2309.04704)
 
+Kuzmin, G., Larionov, D., Pisarevskaya, D., & Smirnov, I. (2020). Fake news detection for the Russian language. In A. Aker & A. Zubiaga (Eds.), Proceedings of the 3rd International Workshop on Rumours and Deception in Social Media (RDSM) (pp. 45–57). Association for Computational Linguistics. Retrieved from https://aclanthology.org/2020.rdsm-1.5
+
+
 
 ## Timeline and contributions:
 

@@ -27,7 +27,8 @@ TODO:
 
 
 ## Literature review
-TODO:
+The study by Pavlyshenko (2023) explores the efficacy of fine-tuning the Llama 2 large language model for detecting disinformation and fake news. The research demonstrates the model's advanced capabilities in text analysis, fact-checking, and sentiment extraction, making it a promising tool for enhancing automated fake news detection systems. The approach leverages PEFT/LoRA-based techniques to achieve substantial improvements in identifying complex narratives and disinformation.
+But we are going to start from some baselines line in the article Kuzmin, G., Larionov, D., Pisarevskaya, D., & Smirnov, I. (2020). This paper by Gleb Kuzmin and colleagues, presented at the 3rd International Workshop on Rumours and Deception in Social Media, investigates fake news detection in Russian. The study compares various models using language features like bag-of-n-grams, Rhetorical Structure Theory features, and BERT embeddings. The research differentiates between satire and fake news, achieving high F1-scores in both binary and multiclass classifications, demonstrating the models' effectiveness in handling this challenging task.
 
 
 

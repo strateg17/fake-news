@@ -66,7 +66,7 @@ In order to be able to run our notebook, we plan to create folder structure simi
     .
     ├── data                                      # Data folder
     │ ├── README.md                               # [Here we are]
-    │ ├── all                                     # folder containing [Tesco grocery 1.0](https://figshare.com/articles/Area-level_grocery_purchases/7796666)
+    │ ├── all                                     # folder containing fixes
     │ ├── data_kaggle_fakes_text.parquet          # converted file
     │ ├── environment.yml
     │ ├── ESRI                                    # our main modeling file

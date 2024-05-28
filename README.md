@@ -61,24 +61,20 @@ Studies on specific technicues explore the topic deeper into the application of 
 
 ## Project structure and installation
 ### Organisation of the repository
-In order to be able to run our notebook, you should have a folder structure similar to:
+In order to be able to run our notebook, we plan to create folder structure similar to:
 
     .
     ├── data                                      # Data folder
-    │ ├── diabetes_estimates_osward_2016.csv      # [Diabetes estimates Osward](https://drive.google.com/drive/folders/19mY0rxtHkAXRuO3O4l__S2Ru2YgcJVIA)
+    │ ├── README.md                               # [Here we are]
     │ ├── all                                     # folder containing [Tesco grocery 1.0](https://figshare.com/articles/Area-level_grocery_purchases/7796666)
-    │ │  ├── Apr_borough_grocery.csv              # example of file
-    │ │  ├── ...
-    │ ├── statistical-gis-boundaries-london       # folder containing the unzipped [Statistical GIS Boundary Files for London](https://data.london.gov.uk/dataset/statistical-gis-boundary-files-london) 
-    │ │  ├── ESRI                                 # contains the data to be loaded by geopandas
-    │ │  │  ├── London_Borough_Excluding_MHW.dbf  # example of file
-    │ │  │  ├── ...
-    │ │  ├── ...
-    ├── images                              # Contains the ouput images and html used for the data story
-    ├── extension.ipynb                     # Deliverable notebook for our extension
-    ├── vizu.ipynb                          # Notebook containing only the vizualisations (if the reader only was to see the interactive viz)
-    ├── Data Extraction.ipynb               # Notebook that generates the subset of tesco used in this analysis
-    └── README.md               
+    │ ├── data_kaggle_fakes_text.parquet          # converted file
+    │ ├── environment.yml
+    │ ├── ESRI                                    # our main modeling file
+    ├── images                                    # Contains the ouput images and html used for the data story
+    ├── data_top_parquet.ipynb                    # Conversion file
+    ├── EN_Propaganda diary.xlsx                  # Source data file #1
+    ├── True.csv                                  # Source data file #2
+    └── True.csv                                  # Source data file #3               
     
 
 ### How to run the code

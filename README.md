@@ -35,7 +35,7 @@ Among additional studies, it is worth highligting the group of studies on the Sy
 - "[Online Fake News Detection Using Machine Learning Techniques: A Systematic Mapping Study](https://www.researchgate.net/publication/357094499_Online_Fake_News_Detection_Using_Machine_Learning_Techniques_A_Systematic_Mapping_Study)" 2022 by Lahby et al, which details application of the SVM technique, and Deep Neural Network (DNN)
 
 Studies on specific technicues explore the topic deeper into the application of particular machine learning algorithms for fake news detection: the relevant mentions include
-- "[Detecting Fake News using Machine Learning: A Systematic Literature Review](https://arxiv.org/abs/2102.04458)" (Discusses the use of Random Forest, Recurrent Neural Networks, and K-Nearest Neighbors) arXiv on detecting fake news using machine learning
+- "[Detecting Fake News using Machine Learning: A Systematic Literature Review](https://arxiv.org/abs/2102.04458)" 2022 by Choi et. al (Discusses the use of Random Forest, Recurrent Neural Networks, and K-Nearest Neighbors) arXiv on detecting fake news using machine learning
 - "[A Comparative Study of Machine Learning and Deep Learning Techniques for Fake News Detection](https://www.mdpi.com/2078-2489/13/12/576)" 2022 by Alhamidi et al. (Analyzes Support Vector Machines and Deep Neural Networks) MDPI on machine learning vs deep learning for fake news detection
 
 

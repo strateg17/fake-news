@@ -30,6 +30,14 @@ TODO:
 The study by Pavlyshenko (2023) explores the efficacy of fine-tuning the Llama 2 large language model for detecting disinformation and fake news. The research demonstrates the model's advanced capabilities in text analysis, fact-checking, and sentiment extraction, making it a promising tool for enhancing automated fake news detection systems. The approach leverages PEFT/LoRA-based techniques to achieve substantial improvements in identifying complex narratives and disinformation.
 But we are going to start from some baselines line in the article Kuzmin, G., Larionov, D., Pisarevskaya, D., & Smirnov, I. (2020). This paper by Gleb Kuzmin and colleagues, presented at the 3rd International Workshop on Rumours and Deception in Social Media, investigates fake news detection in Russian. The study compares various models using language features like bag-of-n-grams, Rhetorical Structure Theory features, and BERT embeddings. The research differentiates between satire and fake news, achieving high F1-scores in both binary and multiclass classifications, demonstrating the models' effectiveness in handling this challenging task.
 
+Among additional studies, it is worth highligting the group of studies on the Systematic Mapping: These studies provide a broader overview of the research landscape in this field - some of the noteworthy mentions include
+- "Advanced Machine Learning techniques for fake news (online disinformation) detection: A systematic mapping study" ResearchGate on advanced machine learning techniques for fake news detection
+- "Online Fake News Detection Using Machine Learning Techniques: A Systematic Mapping Study" ResearchGate on online fake news detection using machine learning techniques
+
+Studies on specific technicues explore the topic deeper into the application of particular machine learning algorithms for fake news detection: the relevant mentions include
+- "Detecting Fake News using Machine Learning: A Systematic Literature Review" (Discusses the use of Random Forest, Recurrent Neural Networks, and K-Nearest Neighbors) arXiv on detecting fake news using machine learning
+- "A Comparative Study of Machine Learning and Deep Learning Techniques for Fake News Detection" (Analyzes Support Vector Machines and Deep Neural Networks) MDPI on machine learning vs deep learning for fake news detection
+
 
 
 ## Proposed datasets
@@ -109,85 +117,59 @@ Kuzmin, G., Larionov, D., Pisarevskaya, D., & Smirnov, I. (2020). Fake news dete
 | Idea research and concepts          |                                 |             |
 | Data search                         |                                 |             |
 | Git utilisation and usage           | All team members                | 3h          |
-| API choice and query design         |                                 | 4h          |
 | Environment setup                   |                                 | 2h          |
 | Data fetching script test           |                                 | 3h          |
-| Data fetching validation            | Augustin                        | 2h          |
-| Data fetching improvements          | Augustin                        | 2h          |
+| Data fetching validation            | Vadym                           | 2h          |
+| Data fetching improvements          | Vadym                           | 2h          |
 
 
-### Week 2 : Data preprocessing
+### Week 2 : Data preprocessing and literature review
 
 | Task                                     | Team member(s)                  | work hours  |
 | :----------------------------------------|:--------------------------------| -----------:|
-| Data cleaning                            | Augustin                        | 5h          |
-| Data exploration paper dataset           | Augustin                        | 2h          |
-| Data exploration                         | Lucas                           | 3h          |
-| Raw data => embedding format             | Lucas                           | 3h          |
+| Data cleaning                            | Vadym                           | 5h          |
+| Data exploration paper dataset           | Vadym, Petro                    | 2h          |
+| Literature review                        | Oleksandra, Petro               | 3h          |
+| Raw data => embedding format             | Vadym                           | 3h          |
 
 
 ### Week 3 : Embedding & Clustering 
 
 | Task                                     | Team member(s)                  | work hours  |
 | :----------------------------------------|:--------------------------------| -----------:|
-| Autencoder keras basic code              | Lucas                           | 3h          |
-| Comparision with PCA and debugging       | Lucas                           | 1h          |
-| K-means                                  | Augustin                        | 2h          |
+| Autencoder       basic code              | Vadym                           | 3h          |
+| Comparision with PCA and debugging       | Vadym                           | 1h          |
+| K-means                                  | Vadym, Petro                    | 2h          |
 
 ### Week 4 : Clustering analysis, Profitablity prediction & report writing
 
 | Task                                    | Team member(s)                  | work hours  |
 | :---------------------------------------|:--------------------------------| -----------:|
-| Clustering analysis                     | Lucas                           | 4h          |
-| Profitablity prediction setup           | Augustin                        | 2h          |
+| Clustering analysis                     | Zoryana, Vadym                  | 4h          |
 | Github pages setup                      | Lucas                           | 2h          |
-| Data story (1)                          | Lucas                           | 5h          |
-| Data story (2)                          | Augustin                        | 2h          |
+| Data story (1)                          | Petro, Oleksandra               | 5h          |
+| Data story (2)                          | Bohdan                          | 2h          |
 
 ### Week 5 : Improvements in data processing & report writing
 
 | Task                                    | Team member(s)                  | work hours  |
 | :---------------------------------------|:--------------------------------| -----------:|
-| Token based scaling                     | Lucas & Augustin                |    5h        |
-| Token one hot encoding                  | Lucas                           |    1h        |
-| Token encoding in profitablity prediction   | Augustin                    |    1h        |
-| Deep NN for   profitablity prediction   | Augustin                        |    1h        |
-| Better data processing                  | Augustin                        |    2h        |
-| Improved data exploration               | Lucas                           |    3h        |
-| Better understanding of PCA output      | Augustin                        |    1h        |
-| Autencoder testing                      | Augustin                        |    2h        |
+| Token based scaling                     | Zoryana, Vadym                  |    5h        |
+| Token one hot encoding                  | Zoryana, Vadym                  |    1h        |
+| Deep NN                                 | Vadym                           |    1h        |
+| Better data processing                  | Bohdan                          |    2h        |
+| Improved data exploration               | Bohdan                          |    3h        |
+| Better understanding of PCA output      | Bohdan                          |    1h        |
 | Data story (3)                          | Lucas                           |    1h        |
-| Add ruled based indicators for autoencoder performance comparision | Lucas |    2h       |        
+| Performance comparision                 | Vadym                           |    2h        |        
 
-### Week 6 : Hyperparameter opmisation, improvements & report writing
-
-| Task                                    | Team member(s)                  | work hours   |
-| :---------------------------------------|:--------------------------------| ------------:|
-| Filter illiquid data & debug            | Lucas                           |    3h        |
-| Update architecture for liquid data     | Augustin                        |    3h        |
-| Research on attention learning          | Lucas                           |    2h        |
-| Data processing simpler pipeline        | Augustin                        |    2h        |
-| Autencoder improvement and debug        | Augustin                        |    3h        |
-| Autencoder manual tests for several architectures        | Augustin       |    8h        |
-| Testing optimizers                      | Augustin                        |    2h        |
-| Talos setup                             | Lucas                           |    2h        |
-| Running Talos                           | Augustin                        |    1h        |
-| Hyperparameter opmisation               | Lucas & Augustin                |    4h        |
-| Reporting losses                        | Augustin                        |    1h        |
-| Kmeans : better silouhette analysis     | Lucas                           |    3h        |
-| Kmeans : update results for liquid data | Lucas                           |    4h        |
-| PCA embedding                           | Lucas                           |    1h        |
-| Ruled based data : pandas-ta implementation    | Lucas                    |    1h        |
-| Ruled based data : pandas implementation       | Lucas                    |    3h        |
-| Ruled based data : code optimisation           | Lucas                    |    3h        |
-| Ruled based data : performance comparision with AE  | Lucas               |    1h        |
-| Repository cleaning                     | Lucas & Augustin                |    1h        |
-| Notebook comments and markdown          | Lucas & Augustin                |    4h        |
-| Data story (4)                          | Lucas & Augustin                |    6h        |
 
 ## Total contribution:
 
 | Team member                     | work hours   |
 |:--------------------------------| ------------:|
-| Lucas Giordano                  |    81h       |
-| Augustin Kapps                  |    60h       |
+| Vadym                           |    81h       |
+| Zoryana                         |    60h       |
+| Petro                           |    60h       |
+| Bohdan                          |    60h       |
+| Oleksandra                      |    60h       |

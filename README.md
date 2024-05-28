@@ -146,7 +146,7 @@ Kuzmin, G., Larionov, D., Pisarevskaya, D., & Smirnov, I. (2020). Fake news dete
 | Task                                    | Team member(s)                  | work hours  |
 | :---------------------------------------|:--------------------------------| -----------:|
 | Clustering analysis                     | Zoryana, Vadym                  | 4h          |
-| Github pages setup                      | Lucas                           | 2h          |
+| Github pages setup                      | Vadym                           | 2h          |
 | Data story (1)                          | Petro, Oleksandra               | 5h          |
 | Data story (2)                          | Bohdan                          | 2h          |
 

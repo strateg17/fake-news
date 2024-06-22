@@ -1,0 +1,5 @@
+lightgbm==3.3.2
+scikit-learn==1.0.2
+numpy==1.21.2
+joblib==1.1.0
+gradio==2.7.5

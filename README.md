@@ -34,9 +34,6 @@ RU22Fact: Optimizing Evidence for Multilingual Explainable Fact-Checking on Russ
 Yirong Zeng, Xiao Ding, Yi Zhao, Xiangyu Li, Jie Zhang, Chao Yao, Ting Liu, Bing Qin (2024)
 
 ## Methodology
-Certainly! Here's a short methodology section based on the provided code:
-
-## Methodology
 
 ### Data Preparation
 The dataset used for training and testing the model consists of fact-checked claims, labeled as either 'Supported' (0) or 'Refuted' (1). The data is preprocessed to remove any rows with missing labels, and the labels are mapped to numeric values for compatibility with machine learning algorithms. The dataset is then split into training and testing sets using an 80-20 split ratio to evaluate the model's performance.

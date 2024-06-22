@@ -34,7 +34,38 @@ RU22Fact: Optimizing Evidence for Multilingual Explainable Fact-Checking on Russ
 Yirong Zeng, Xiao Ding, Yi Zhao, Xiangyu Li, Jie Zhang, Chao Yao, Ting Liu, Bing Qin (2024)
 
 ## Methodology
+Certainly! Here's a short methodology section based on the provided code:
 
+## Methodology
+
+### Data Preparation
+The dataset used for training and testing the model consists of fact-checked claims, labeled as either 'Supported' (0) or 'Refuted' (1). The data is preprocessed to remove any rows with missing labels, and the labels are mapped to numeric values for compatibility with machine learning algorithms. The dataset is then split into training and testing sets using an 80-20 split ratio to evaluate the model's performance.
+
+### Text Vectorization
+Text data is transformed into numerical features using Term Frequency-Inverse Document Frequency (TF-IDF) vectorization. This method converts the raw text into a matrix of TF-IDF features, which reflects the importance of a word in a document relative to the entire dataset. The `TfidfVectorizer` from the `sklearn` library is used for this purpose.
+
+### Model Training
+A LightGBM classifier (`LGBMClassifier`) is trained on the TF-IDF transformed training data. LightGBM is a gradient boosting framework that uses tree-based learning algorithms, known for its efficiency and high performance on large datasets.
+
+### Hyperparameter Optimization
+To find the best hyperparameters for the LightGBM model, we use Optuna, a hyperparameter optimization framework. Optuna conducts a series of trials to maximize the model's accuracy on the validation set by tuning parameters such as learning rate, number of leaves, and regularization terms.
+
+### Model Evaluation
+The optimized LightGBM model is evaluated on the test set to assess its accuracy. The accuracy scores for both the training and testing sets are calculated and displayed, providing insights into the model's performance and potential overfitting.
+
+### Deployment
+The trained LightGBM model and the fitted TF-IDF vectorizer are saved using `joblib`. A Gradio interface is created to deploy the model as a web application, allowing users to input text and receive predictions on whether the text is 'Fake' or 'Not Fake'. The model and vectorizer are loaded in the Gradio app, and the input text is transformed and classified in real-time.
+
+### Code Implementation
+The following key Python libraries are used in this implementation:
+- `pandas` and `numpy` for data manipulation and numerical operations.
+- `scikit-learn` for TF-IDF vectorization, model training, and evaluation.
+- `lightgbm` for implementing the LightGBM classifier.
+- `optuna` for hyperparameter optimization.
+- `joblib` for saving and loading the model and vectorizer.
+- `gradio` for creating the web interface to deploy the model.
+
+This methodology ensures a systematic approach to preprocessing, model training, evaluation, and deployment, resulting in an efficient and user-friendly fake news classification tool.
 
 
 ## Proposed datasets

@@ -15,7 +15,7 @@ To master our skills and contribute to developments that strengthen Ukraine’s 
 Develop a model capable of identifying fakes in news and social media
 
 
-**3. HOW?**  - TODO:
+**3. HOW?**
 Applying modern ML algorithmes to fake and propaganda texts
 
 
@@ -33,6 +33,9 @@ Oliinyk, V., Vysotska, V., Burov, Y., Mykich, K., Basto-Fernandes, V. (2020)
 RU22Fact: Optimizing Evidence for Multilingual Explainable Fact-Checking on Russia-Ukraine Conflict 🔗
 Yirong Zeng, Xiao Ding, Yi Zhao, Xiangyu Li, Jie Zhang, Chao Yao, Ting Liu, Bing Qin (2024)
 
+## Methodology
+
+
 
 ## Proposed datasets
 1. [Fake and real news dataset on kaggle.com](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset.)
@@ -42,7 +45,7 @@ Yirong Zeng, Xiao Ding, Yi Zhao, Xiangyu Li, Jie Zhang, Chao Yao, Ting Liu, Bing
 
 
 
-### Organisation of the repository
+## Organisation of the repository
 In order to be able to run our notebook, you should have a folder structure similar to:
 
     .

@@ -1,4 +1,4 @@
-![]([./"images/img1.png"](https://github.com/strateg17/fake-news/blob/main/images/img1.png))
+![Text]([./"images/img1.png"](https://github.com/strateg17/fake-news/blob/main/images/img1.png))
 
 
 

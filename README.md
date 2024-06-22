@@ -1,3 +1,7 @@
+![Alt text](./"images/img1.png")
+
+
+
 Fake news detection 
 ======
 
